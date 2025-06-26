@@ -179,7 +179,14 @@
           </div>
 
           <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <form action="https://api.web3forms.com/submit" method="POST" id="form" data-aos="fade-up" data-aos-delay="200">
+
+                  <input type="hidden" name="access_key" value="529c5a6e-6f16-47f2-94b1-fb23b105c636" />
+    <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+    <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+    <input type="checkbox" name="botcheck" id="" style="display: none;" />
+
+
               <div class="row gy-4">
 
                 <div class="col-md-6">
@@ -191,19 +198,13 @@
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
                   <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
                 </div>
 
                 <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  
 
-                  <button type="submit">Send Message</button>
+                  <button class="btn btn-success" type="submit">Send Message</button>
                 </div>
 
               </div>
