@@ -1,10 +1,4 @@
-/**
-* Template Name: FashionStore
-* Template URL: https://bootstrapmade.com/fashion-store-bootstrap-template/
-* Updated: Apr 26 2025 with Bootstrap v5.3.5
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 (function() {
   "use strict";
