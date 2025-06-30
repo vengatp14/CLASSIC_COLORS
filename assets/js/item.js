@@ -289,7 +289,7 @@ document.getElementById("checkoutBtn").onclick = () => {
     msg += `• ${item.title} x ${item.quantity}\n`;
   });
   const encoded = encodeURIComponent(msg);
-  window.open(`https://wa.me/+919894324458?text=${encoded}`, "_blank");
+  window.open(`https://wa.me/+919944699027?text=${encoded}`, "_blank");
 };
 
 function render() {
